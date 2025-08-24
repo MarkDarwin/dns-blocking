@@ -33,14 +33,15 @@ jobs:
         run: |
           COUNT=$(wc -l < lists/nrd-14day-mini-shrink.txt)
           DATE=$(date -u +"%Y-%m-%d")
-          echo "{\"domains\":$COUNT,\"updated\":\"$DATE\"}" > lists/blocklist-stats.json
+          echo "{\"schemaVersion\":1,\"label\":\"domains blocked\",\"message\":\"$COUNT\"}" > lists/blocklist-domains-badge.json
+          echo "{\"schemaVersion\":1,\"label\":\"last updated\",\"message\":\"$DATE\"}" > lists/blocklist-updated-badge.json
 
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ `git status --porcelain` ]]; then
-            git add lists/nrd-14day-mini-shrink.txt lists/blocklist-stats.json
+            git add lists/nrd-14day-mini-shrink.txt lists/blocklist-domains-badge.json lists/blocklist-updated-badge.json
             git commit -m "Update NRD blocklist (remove .ru and .cn)"
             git push
           else
