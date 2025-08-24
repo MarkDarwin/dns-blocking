@@ -24,7 +24,7 @@ jobs:
           curl -sSL "https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/14-day-mini/domains-only/nrd-14day-mini.txt" \
             -o lists/nrd-14day-mini.txt
 
-      - name: Remove TLDs (.ru .cn .kp .zip .by
+      - name: Remove TLDs (.ru .cn .kp .zip .by)
         run: |
           grep -viE "\.ru$|\.cn$|\.kp$|\.zip$|\.by$" lists/nrd-14day-mini.txt > lists/blocklist-clean.txt
           mv lists/blocklist-clean.txt lists/nrd-14day-mini-shrink.txt
