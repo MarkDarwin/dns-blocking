@@ -1,7 +1,7 @@
 
 # 🛡️ DNS Blocking
 
-Automated workflows to fetch, filter, and maintain DNS blocklists for privacy and security.
+Automated workflows to fetch, filter, and maintain DNS blocklists for privacy and security. The originaly lists worked but used too much memory. The adjustments below clean up the lists, but I am retaining functionality by adding the TLDs directly to the DNS server.
 
 ---
 
