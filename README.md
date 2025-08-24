@@ -41,7 +41,11 @@ This project processes and maintains two DNS blocklists:
 ### Fakenews-Gambling-Porn-Only Blocklist
 1. Download the source hosts file.
 2. Remove comment lines and strip the `0.0.0.0 ` prefix.
-3. Save the result to `lists/fakenews-gambling-porn-only-shrink.txt`.
+3. Filter out domains ending with specified TLDs:
+	 ```
+	 .ru .cn .kp .zip .by
+	 ```
+4. Save the result to `lists/fakenews-gambling-porn-only-shrink.txt`.
 
 ---
 
