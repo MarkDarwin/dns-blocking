@@ -28,6 +28,7 @@ jobs:
         run: |
           grep -viE "\.ru$|\.cn$|\.kp$|\.zip$|\.by$" lists/nrd-14day-mini.txt > lists/blocklist-clean.txt
           mv lists/blocklist-clean.txt lists/nrd-14day-mini-shrink.txt
+          rm lists/nrd-14day-mini.txt
 
 
       - name: Commit & push if changed

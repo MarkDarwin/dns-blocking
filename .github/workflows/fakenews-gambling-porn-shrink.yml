@@ -27,7 +27,7 @@ jobs:
       - name: Clean blocklist (remove comments, strip prefix)
         run: |
           grep -v '^#' lists/fakenews-gambling-porn-only.txt | sed 's/^0.0.0.0 //' > lists/fakenews-gambling-porn-only-shrink.txt
-
+          rm lists/fakenews-gambling-porn-only.txt
 
       - name: Commit & push if changed
         run: |
