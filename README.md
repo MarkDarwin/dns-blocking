@@ -3,8 +3,6 @@
 ## 📰 StevenBlack Newly registered Domains Blocklist
 <p align="left">
 	<img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/nrd-shrink.yml/badge.svg?style=for-the-badge&logo=githubactions&logoColor=white&label=✔️%20NRD%20Workflow&color=green" alt="✔️ NRD Workflow Status" />
-	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-domains-badge.json&style=for-the-badge&logo=shield&logoColor=white&label=🚫%20Domains%20Blocked&color=red" alt="🚫 NRD Domains Blocked" />
-	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-updated-badge.json&style=for-the-badge&logo=calendar&logoColor=white&label=🕒%20Last%20Updated&color=blue" alt="🕒 NRD Last Updated" />
 </p>
 
 ---
@@ -13,8 +11,6 @@
 
 <p align="left">
 	<img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/stevenblack-fakenews-gambling-porn.yml/badge.svg?style=for-the-badge&logo=githubactions&logoColor=white&label=✔️%20StevenBlack%20Workflow&color=green" alt="✔️ StevenBlack Workflow Status" />
-	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/fakenews-gambling-porn-only-domains-badge.json&style=for-the-badge&logo=shield&logoColor=white&label=🚫%20Domains%20Blocked&color=red" alt="🚫 StevenBlack Domains Blocked" />
-	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/fakenews-gambling-porn-only-updated-badge.json&style=for-the-badge&logo=calendar&logoColor=white&label=🕒%20Last%20Updated&color=blue" alt="🕒 StevenBlack Last Updated" />
 </p>
 
 This workflow downloads the [StevenBlack fakenews-gambling-porn-only hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-only/hosts), removes comment lines and the `0.0.0.0 ` prefix, and saves the cleaned list as:
