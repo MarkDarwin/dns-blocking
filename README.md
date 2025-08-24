@@ -2,8 +2,8 @@
 
 <p align="left">
 	<img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/nrd-shrink.yml/badge.svg" alt="Workflow Status" />
-	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-stats.json&label=domains%20blocked&query=domains" alt="Domains Blocked" />
-	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-stats.json&label=last%20updated&query=updated" alt="Last Updated" />
+	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-domains-badge.json" alt="Domains Blocked" />
+	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-updated-badge.json" alt="Last Updated" />
 </p>
 
 ## 📋 Overview
