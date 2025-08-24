@@ -1,5 +1,11 @@
 # 🛡️ DNS Blocking
 
+<p align="left">
+	<img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/nrd-shrink.yml/badge.svg" alt="Workflow Status" />
+	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-stats.json&label=domains%20blocked&query=domains" alt="Domains Blocked" />
+	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MarkDarwin/dns-blocking/main/lists/blocklist-stats.json&label=last%20updated&query=updated" alt="Last Updated" />
+</p>
+
 ## 📋 Overview
 
 This project processes a domain blocklist for DNS filtering. We take the list from [xRuffKez/NRD 14-day mini domains-only](https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/14-day-mini/domains-only/nrd-14day-mini.txt) and remove domains ending with the following TLDs:

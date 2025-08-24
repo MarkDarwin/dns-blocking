@@ -29,14 +29,21 @@ jobs:
           grep -viE "\.ru$|\.cn$|\.kp$|\.zip$|\.by$" lists/nrd-14day-mini.txt > lists/blocklist-clean.txt
           mv lists/blocklist-clean.txt lists/nrd-14day-mini-shrink.txt
 
+      - name: Generate stats JSON for badges
+        run: |
+          COUNT=$(wc -l < lists/nrd-14day-mini-shrink.txt)
+          DATE=$(date -u +"%Y-%m-%d")
+          echo "{\"domains\":$COUNT,\"updated\":\"$DATE\"}" > lists/blocklist-stats.json
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ `git status --porcelain` ]]; then
-            git add lists/nrd-14day-mini-shrink.txt
+            git add lists/nrd-14day-mini-shrink.txt lists/blocklist-stats.json
             git commit -m "Update NRD blocklist (remove .ru and .cn)"
             git push
           else
             echo "No changes to commit."
           fi
+
