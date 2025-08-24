@@ -1,0 +1,47 @@
+name: Update StevenBlack Fakenews-Gambling-Porn Blocklist
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # Runs daily at 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch blocklist
+        run: |
+          mkdir -p lists
+          curl -sSL "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-only/hosts" \
+            -o lists/fakenews-gambling-porn-only.txt
+
+      - name: Clean blocklist (remove comments, strip prefix)
+        run: |
+          grep -v '^#' lists/fakenews-gambling-porn-only.txt | sed 's/^0.0.0.0 //' > lists/fakenews-gambling-porn-only-shrink.txt
+
+      - name: Generate stats JSON for badges
+        run: |
+          COUNT=$(wc -l < lists/fakenews-gambling-porn-only-shrink.txt)
+          DATE=$(date -u +"%Y-%m-%d")
+          echo "{\"schemaVersion\":1,\"label\":\"domains blocked\",\"message\":\"$COUNT\"}" > lists/fakenews-gambling-porn-only-domains-badge.json
+          echo "{\"schemaVersion\":1,\"label\":\"last updated\",\"message\":\"$DATE\"}" > lists/fakenews-gambling-porn-only-updated-badge.json
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ `git status --porcelain` ]]; then
+            git add lists/fakenews-gambling-porn-only-shrink.txt lists/fakenews-gambling-porn-only-domains-badge.json lists/fakenews-gambling-porn-only-updated-badge.json
+            git commit -m "Update StevenBlack fakenews-gambling-porn-only blocklist"
+            git push
+          else
+            echo "No changes to commit."
