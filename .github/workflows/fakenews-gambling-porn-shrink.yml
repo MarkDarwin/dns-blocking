@@ -24,10 +24,16 @@ jobs:
           curl -sSL "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-only/hosts" \
             -o lists/fakenews-gambling-porn-only.txt
 
+
       - name: Clean blocklist (remove comments, strip prefix)
         run: |
-          grep -v '^#' lists/fakenews-gambling-porn-only.txt | sed 's/^0.0.0.0 //' > lists/fakenews-gambling-porn-only-shrink.txt
+          grep -v '^#' lists/fakenews-gambling-porn-only.txt | sed 's/^0.0.0.0 //' > lists/fakenews-gambling-porn-only-clean.txt
           rm lists/fakenews-gambling-porn-only.txt
+
+      - name: Remove TLDs (.ru .cn .kp .zip .by)
+        run: |
+          grep -viE "\.ru$|\.cn$|\.kp$|\.zip$|\.by$" lists/fakenews-gambling-porn-only-clean.txt > lists/fakenews-gambling-porn-only-shrink.txt
+          rm lists/fakenews-gambling-porn-only-clean.txt
 
       - name: Commit & push if changed
         run: |
