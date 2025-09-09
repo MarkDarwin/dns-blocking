@@ -9,7 +9,7 @@ Automated workflows to fetch, filter, and maintain DNS blocklists for privacy an
 
 | Blocklist Source | Workflow Status |
 |------------------|:--------------:|
-| NRD 14-day mini  | <img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/nrd-shrink.yml/badge.svg?style=for-the-badge&logo=githubactions&logoColor=white&label=✔️%20NRD%20Workflow&color=green" alt="✔️ NRD Workflow Status" /> |
+| NRD 30-day mini  | <img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/nrd-shrink.yml/badge.svg?style=for-the-badge&logo=githubactions&logoColor=white&label=✔️%20NRD%20Workflow&color=green" alt="✔️ NRD Workflow Status" /> |
 | Fakenews-Gambling-Porn | <img src="https://github.com/MarkDarwin/dns-blocking/actions/workflows/fakenews-gambling-porn-shrink.yml/badge.svg?style=for-the-badge&logo=githubactions&logoColor=white&label=✔️%20Fakenews%20Workflow&color=green" alt="✔️ Fakenews Workflow Status" /> |
 
 ---
@@ -18,7 +18,7 @@ Automated workflows to fetch, filter, and maintain DNS blocklists for privacy an
 
 This project processes and maintains two DNS blocklists:
 
-- **NRD 14-day mini domains-only** ([source](https://raw.githubusercontent.com/xRuffKez/NRD/refs/heads/main/lists/14-day-mini/domains-only/nrd-14day-mini.txt))
+- **NRD 30-day mini domains-only** ([source](https://raw.githubusercontent.com/cenk/nrd/refs/heads/main/nrd-last-30-days.txt))
 	- Filters out domains ending with `.ru`, `.cn`, `.kp`, `.zip`, `.by` to reduce memory footprint.
 	- The filtered list is saved as `lists/nrd-14day-mini-shrink.txt`.
 
