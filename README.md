@@ -36,7 +36,7 @@ This project processes and maintains two DNS blocklists:
 	 ```
 	 .ru .cn .kp .zip .by
 	 ```
-3. Save the result to `lists/nrd-14day-mini-shrink.txt`.
+3. Save the result to `lists/nrd-30day-mini-shrink.txt`.
 
 ### Fakenews-Gambling-Porn-Only Blocklist
 1. Download the source hosts file.
