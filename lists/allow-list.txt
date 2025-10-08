@@ -1,0 +1,5 @@
+# allow websites which would break some functionality
+cloudfront.net
+alicdn.com
+aliexpress-media.com
+bravesoftware.com
