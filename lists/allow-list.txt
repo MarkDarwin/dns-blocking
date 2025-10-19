@@ -2,5 +2,6 @@
 cloudfront.net
 alicdn.com
 aliexpress-media.com
-bravesoftware.com
 acstuff.ru
+bravesoftware.com
+
