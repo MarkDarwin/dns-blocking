@@ -1,0 +1,9 @@
+spotify.com
+scdn.co
+spotifycdn.com
+spoti.fi
+tospotify.com
+byspotify.com
+spotify.dev
+anchor.fm
+audio-ak-spotify-com.akamaized.net
