@@ -1,0 +1,130 @@
+# Ad / tracker apex-domain blocklist (Cloudflare Gateway)
+#
+# Curated for Cloudflare Gateway DOMAIN lists, which match the listed host
+# and all subdomains. Every entry is the highest-level domain that's safe to
+# block — i.e. blocking it won't break the parent's legitimate services.
+#
+# Where the apex is a legitimate service (bing.com, linkedin.com, tiktok.com,
+# reddit.com, microsoft.com), the specific ad/tracking subdomain is listed.
+#
+# Consumed via scripts/sync-blocklists.py in the cloudflare repo.
+
+# --- Google (ads + analytics only; google.com itself is not blockable) ---
+doubleclick.net
+googlesyndication.com
+googletagmanager.com
+googletagservices.com
+googleadservices.com
+google-analytics.com
+2mdn.net
+admob.com
+
+# --- Meta ---
+facebook.net
+
+# --- Amazon ---
+amazon-adsystem.com
+assoc-amazon.com
+
+# --- Microsoft (subdomains — bing.com / microsoft.com are legit) ---
+bat.bing.com
+clarity.ms
+ads.microsoft.com
+
+# --- TikTok / ByteDance (subdomains — tiktok.com is legit) ---
+analytics.tiktok.com
+ads.tiktok.com
+
+# --- LinkedIn (subdomain — linkedin.com is legit) ---
+px.ads.linkedin.com
+
+# --- X/Twitter ---
+ads-twitter.com
+static.ads-twitter.com
+
+# --- Snap ---
+sc-static.net
+
+# --- Reddit (subdomain — reddit.com is legit) ---
+events.reddit.com
+
+# --- Major DSPs / SSPs / exchanges ---
+adnxs.com
+criteo.com
+criteo.net
+pubmatic.com
+openx.net
+rubiconproject.com
+magnite.com
+indexexchange.com
+casalemedia.com
+adform.net
+adsrvr.org
+thetradedesk.com
+mathtag.com
+rtbhouse.com
+sovrn.com
+smartadserver.com
+stackadapt.com
+triplelift.com
+sharethrough.com
+teads.tv
+yieldmo.com
+
+# --- Native / content recommendation ---
+taboola.com
+outbrain.com
+mgid.com
+revcontent.com
+nativo.com
+connatix.com
+
+# --- Mobile ad networks ---
+applovin.com
+ironsrc.com
+vungle.com
+inmobi.com
+tapjoy.com
+chartboost.com
+adcolony.com
+
+# --- Verification / viewability ---
+moatads.com
+adsafeprotected.com
+doubleverify.com
+
+# --- Product analytics / session replay ---
+segment.com
+segment.io
+mixpanel.com
+hotjar.com
+amplitude.com
+fullstory.com
+crazyegg.com
+
+# --- Mobile attribution ---
+branch.io
+appsflyer.com
+adjust.com
+kochava.com
+app-measurement.com
+
+# --- Audience measurement ---
+quantserve.com
+scorecardresearch.com
+
+# --- Adobe Experience Cloud ---
+demdex.net
+omtrdc.net
+2o7.net
+everesttech.net
+
+# --- Data brokers / identity graphs ---
+bluekai.com
+rlcdn.com
+
+# --- Marketing automation ---
+mktoresp.com
+marketo.com
+pardot.com
+eloqua.com
