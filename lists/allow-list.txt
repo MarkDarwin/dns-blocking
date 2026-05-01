@@ -5,3 +5,9 @@ aliexpress-media.com
 acstuff.ru
 bravesoftware.com
 api.parkrunapp.com
+apple.com
+apple.news
+icloud.com
+mzstatic.com
+apple-cloudkit.com
+cdn-apple.com
