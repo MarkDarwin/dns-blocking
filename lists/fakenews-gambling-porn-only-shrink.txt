@@ -2231,6 +2231,7 @@ zombie.news
 11win.mx
 11win.net
 11win.skin
+11win.tips
 11win.vin
 11win.works
 11zalo.com
@@ -2390,6 +2391,7 @@ zombie.news
 789club.mw
 789club.nu
 789club.org
+789club.rich
 789club.sx
 789club.tr
 789club.vg
@@ -2509,6 +2511,7 @@ zombie.news
 9bet.band
 9bet.blue
 9bet.care
+9bet.diy
 9bet.fund
 9bet.green
 9bet.mobi
@@ -2613,6 +2616,7 @@ api.99vn.bet
 api.9bet.army
 api.9bet.band
 api.9bet.care
+api.9bet.diy
 api.9bet.fund
 api.9bet.green
 api.9bet.mobi
@@ -2802,6 +2806,7 @@ bk8vninternal.com
 bk8win.top
 bntv.bongvip.com
 bom52.club
+bom88.ac
 bom88.baby
 bom88.casa
 bom88.city
@@ -3078,6 +3083,7 @@ du88.fashion
 du88.football
 du88.guru
 du88.health
+du88.house
 du88.in
 du88.info
 du88.life
@@ -3704,6 +3710,7 @@ k88.moe
 k88.mov
 k88.nz
 k88.pro
+k88.soy
 k88.sx
 k88.tel
 k88.vc
@@ -3950,6 +3957,7 @@ lp.vuiuk88.club
 lp.zo1.win
 lt991.com
 lu88.ai
+lu88.bio
 lu88.ch
 lu88.co
 lu88.com
@@ -4121,6 +4129,7 @@ man88.vc
 man88.vip
 man88.vu
 man88.win
+man88.xin
 manclub.live
 manclub.us
 manclub.vin
@@ -4424,6 +4433,7 @@ play.topclub.casa
 play.vaob52.click
 play.vic.hair
 play.vicclub.ac
+play.vicclub.id
 play.vicclub.sh
 play.vip79.top
 play.win79.vip
@@ -4455,6 +4465,7 @@ prok8.com
 pt1.fabet.win
 pub88.camera
 pub88.channel
+pub88.charity
 pub88.com
 pub88.day
 pub88.forum
@@ -4693,6 +4704,7 @@ sk.xibet.nz
 sk.xibet.pl
 sk.xibet.red
 sk.xibet.soy
+sk.xibet.tax
 sk.xibet.vu
 sk.xibet.wtf
 sk.zbet.ws
@@ -4731,6 +4743,7 @@ sock.sky88.in
 socket.9bet.army
 socket.9bet.band
 socket.9bet.care
+socket.9bet.diy
 socket.9bet.fund
 socket.9bet.green
 socket.9bet.mobi
@@ -5057,6 +5070,7 @@ tx88.download
 tx88.fan
 tx88.fashion
 tx88.fun
+tx88.fund
 tx88.fyi
 tx88.games
 tx88.hot
@@ -5179,6 +5193,7 @@ vic88.link
 vic88.mx
 vic88.net
 vicclub.ac
+vicclub.id
 vicclub.sh
 victorwin555.com
 vicwin.vip
@@ -5307,6 +5322,7 @@ vu88.net
 vu88.ng
 vu88.ro
 vu88.sh
+vu88.tel
 vu88.tv
 vu88.vu
 vu88.ws
@@ -5472,6 +5488,7 @@ won88.win
 wp.9bet.army
 wp.9bet.band
 wp.9bet.care
+wp.9bet.diy
 wp.9bet.fund
 wp.9bet.green
 wp.9bet.mobi
@@ -5973,6 +5990,7 @@ xibet.nz
 xibet.pl
 xibet.red
 xibet.soy
+xibet.tax
 xibet.uno
 xibet.vg
 xibet.vu
@@ -6068,6 +6086,7 @@ zowin.mom
 zowin.ng
 zowin.ph
 zowin.red
+zowin.ro
 zowin.sh
 zowin.srl
 zowin.st
@@ -9263,6 +9282,7 @@ javhdhay.me
 javhdhay.us
 javhdhayz.com
 javhdvietsub.com
+javhdz.cam
 javhdz.city
 javhdz.fun
 javhdz.hot
@@ -9288,6 +9308,7 @@ javphim.org
 javphim.vin
 javphoz.com
 javsex.cc
+javsub.blog
 javsub.cc
 javsub.co
 javsub.live
@@ -10409,6 +10430,7 @@ vlxx.mx
 vlxx.net
 vlxx.network
 vlxx.pet
+vlxx.phd
 vlxx.pw
 vlxx.rocks
 vlxx.sbs
