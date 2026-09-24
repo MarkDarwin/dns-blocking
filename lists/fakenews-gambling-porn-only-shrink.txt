@@ -2529,6 +2529,7 @@ zombie.news
 9bet.photo
 9bet.pink
 9bet.rest
+9bet.vote
 9bet.win
 9bet.world
 9e3c.com
@@ -2633,6 +2634,7 @@ api.9bet.green
 api.9bet.krd
 api.9bet.mobi
 api.9bet.photo
+api.9bet.vote
 api.9bet.win
 api.ae888.com
 api.ae88827.com
@@ -2869,6 +2871,7 @@ bwing88.com
 bwingno1.com
 bwingthethao.com
 c.bong99.com
+c168.biz
 c54373.com
 c54455.com
 c547777.com
@@ -3422,6 +3425,7 @@ gw.mubet.help
 gw.mubet.media
 gw.mubet.talk
 gw.mubet.tips
+gw.mubet.toys
 gw.mubet.vip
 gw.tot88.store
 h3bet.com
@@ -4158,6 +4162,7 @@ man88.ph
 man88.pl
 man88.pw
 man88.sh
+man88.spa
 man88.top
 man88.vc
 man88.vip
@@ -4271,6 +4276,7 @@ mubet.media
 mubet.sh
 mubet.talk
 mubet.tips
+mubet.toys
 mubet.video
 mubet.vip
 mubet.website
@@ -4797,6 +4803,7 @@ socket.9bet.green
 socket.9bet.krd
 socket.9bet.mobi
 socket.9bet.photo
+socket.9bet.vote
 socket.9bet.win
 socket.debet.so
 socket.debet.uk
@@ -5383,6 +5390,7 @@ vu88.net
 vu88.ng
 vu88.ro
 vu88.sh
+vu88.tax
 vu88.tel
 vu88.tv
 vu88.vu
@@ -5556,6 +5564,7 @@ wp.9bet.green
 wp.9bet.krd
 wp.9bet.mobi
 wp.9bet.photo
+wp.9bet.vote
 wp.9bet.win
 wp.debet79.info
 wp.hdbet.com
@@ -9168,6 +9177,7 @@ gaigu.buzz
 gaigu.info
 gaigu.net
 gaigu.xyz
+gaigu18.blog
 gaigu6.tv
 gaigu7.tv
 gaigu8.com
@@ -9306,6 +9316,7 @@ heovl1.com
 heovl1.net
 heovlx.com
 hhentai.net
+hihisex.app
 hihisex.pro
 hihisex.vip
 hinhgai.com
@@ -9327,8 +9338,12 @@ ihentai.ws
 img.hentaivv1.com
 img.nangcuc.dev
 img.nangcucz.link
+img.phimkk.pro
+img.sexbuz.com
 img.vl69.pro
+img.xxxmeo.com
 img.xxxphim.top
+img.xxxviet.io
 info.xnxx.gold
 japanhdv.biz
 japansex.blog
@@ -9384,6 +9399,7 @@ javhdhay.us
 javhdhayz.com
 javhdvietsub.com
 javhdz.ac
+javhdz.bz
 javhdz.cam
 javhdz.city
 javhdz.fun
@@ -9581,6 +9597,7 @@ phim-javhd.com
 phim-javhd.pro
 phim-sec.one
 phim-set.info
+phim-sex.io
 phim-sex.live
 phim-sex.net
 phim-sexhd.biz
@@ -9592,6 +9609,7 @@ phim.sexdiem.com
 phim.vl9x.net
 phim.vuasex.co
 phim.xxxhai.com
+phim.xxxmeo.com
 phim18.co
 phim18.online
 phim18.ws
@@ -9650,6 +9668,7 @@ phimkhongche.com
 phimkk.com
 phimkk.me
 phimkk.net
+phimkk.pro
 phimkk.ws
 phimloanluan.net
 phimloanluan.org
@@ -9925,10 +9944,12 @@ raiseyourhandnow.com
 rap3x.net
 rphang.ac
 rphang.cc
+rphang.com
 rphang.dog
 rphang.lat
 rphang.luutrurp.com
 rphang.me
+rphang.now
 rphang.online
 rphangcdn.com
 rphangs.net
@@ -9938,9 +9959,11 @@ rphangx.net
 rphangx.tv
 s.chinav.sex
 s.gaidep.blog
+s.gaigu18.blog
 s.phimsexvip.cc
 s.vnchich.net
 s3xvn.com
+s5.phimkk.pro
 s666.tv
 s666tv.com
 sayhentai.me
@@ -9985,6 +10008,7 @@ sexaumy.com
 sexbaophe.pro
 sexbattu.com
 sexbulon.pro
+sexbuz.com
 sexchauau.club
 sexchauau.co
 sexchauau.mobi
@@ -10018,6 +10042,7 @@ sexgaixinhhd.pro
 sexhay.biz
 sexhay.vip
 sexhay123.com
+sexhay247.net
 sexhay2k.com
 sexhay3x.com
 sexhay69.mobi
@@ -10645,6 +10670,7 @@ wwwxxx.pro
 x.javhd.co.uk
 x.phimsexsub.pw
 x10.viet69.life
+x5.xxxviet.io
 xamvn.pro
 xamvn.sh
 xamvn.top
@@ -10741,6 +10767,7 @@ xxvnapi.com
 xxvnurl.com
 xxx.ditnhau.cc
 xxxhay.biz
+xxxmeo.com
 xxxmoi.com
 xxxner.com
 xxxnhatban.cyou
