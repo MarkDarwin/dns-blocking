@@ -11,6 +11,7 @@ adroll.com
 adsafeprotected.com
 adscale.de
 adservme.com
+adsmoloco.com
 adsonar.com
 adspirit.de
 adspirit.net
@@ -29,6 +30,7 @@ aerserv.com
 airpush.com
 alb.reddit.com
 altitude-arena.com
+amazon-adsystem.com
 amobee.com
 analytic-google.com
 aniview.com
@@ -39,8 +41,10 @@ atomx.com
 avocet.io
 axonix.com
 bannerconnect.net
+bm-ads.io
 beachfront.com
 beeswax.com
+bidmachine.io
 bidswitch.net
 bidsystem.com
 bidtellect.com
@@ -122,6 +126,7 @@ kixer.com
 komoona.com
 kontera.com
 kruxdigital.com
+lazybumblebee.com
 leadbolt.com
 ligatus.com
 liveintent.com
@@ -133,6 +138,7 @@ madgic.com
 madisonlogic.com
 magnite.com
 marfeel.com
+maticooads.com
 mathtag.com
 media.net
 mediaiqdigital.com
@@ -150,6 +156,7 @@ metaaudiencenetwork.com
 mgid.com
 microad.jp
 millennialmedia.com
+mintegral.com
 mixpo.com
 moatads.com
 mobfox.com
@@ -157,7 +164,9 @@ mobvista.com
 mojiva.com
 monetizemore.com
 monetizepros.com
+moloco.com
 mopub.com
+mtgglobals.com
 my6sense.com
 nativo.com
 nend.net
@@ -185,6 +194,7 @@ pagefair.com
 parrable.com
 pebblemedia.be
 performax.cz
+pipopay.com
 pixfuture.com
 platform161.com
 playbuzz.com
@@ -205,6 +215,7 @@ quantcast.com
 quantserve.com
 quigo.com
 rakutenmarketing.com
+rayjump.com
 realvu.net
 reklamstore.com
 remintrex.com
@@ -222,6 +233,7 @@ rtd.tubemogul.com
 rubiconproject.com
 rubiconproject.net
 runads.com
+ruxella.com
 s.innovid.com
 s0.2mdn.net
 sabio.us
