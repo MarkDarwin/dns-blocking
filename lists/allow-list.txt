@@ -11,3 +11,10 @@ icloud.com
 mzstatic.com
 apple-cloudkit.com
 cdn-apple.com
+artificialanalysis.ai
+claude.ai
+datacurve.ai
+lmstudio.ai
+opencode.ai
+openrouter.ai
+pixellab.ai
