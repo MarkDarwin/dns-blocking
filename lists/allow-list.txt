@@ -18,3 +18,7 @@ lmstudio.ai
 opencode.ai
 openrouter.ai
 pixellab.ai
+clawdhub.com
+nvidia.com
+sentry.io
+akamai.net
